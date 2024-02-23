@@ -1,5 +1,4 @@
 
-Certainly! Here's a sample description for your GitHub repository:
 
 Simple Survey Form Project
 This repository contains a simple survey form project created using only HTML and CSS. The project was assigned as part of my learning journey through FreeCodeCamp's Responsive Web Design Certification.
