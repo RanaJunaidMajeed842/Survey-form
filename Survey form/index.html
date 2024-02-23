@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="content">
+        <h1>freeCodeCamp Survey Form</h1>
+      <p>Thank you for taking the time to help us improve the platform</p>
+      <form action="">
+        <fieldset>
+          <label for="name" class="intro"
+            >Name
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+              class="intro-input"
+          /></label>
+          <label for="email" class="intro"
+            >Email
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              class="intro-input"
+          /></label>
+          <label for="age" class="intro"
+            >Age(optional)<input
+              type="number"
+              name="age"
+              id="age"
+              placeholder="Age"
+              min="13"
+              max="65"
+              class="intro-input"
+          /></label>
+          <label for="current-role" class="intro"
+            >Which option best describes your current role?
+            <select name="current-role" id="current-role" class="intro-input">
+              <option value="">Select current role</option>
+              <option value="1">Student</option>
+              <option value="2">Full time job</option>
+              <option value="3">Full time learner</option>
+              <option value="4">Prefer not to say</option>
+              <option value="5">Other</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Would you recommend freeCodeCamp to a friend?</legend>
+          <label for="Definitely"
+            ><input
+              type="radio"
+              id="Definitely"
+              name="recommend"
+              class="inline"
+              checked
+            />
+            Definitely</label
+          >
+          <label for="Maybe"
+            ><input type="radio" id="Maybe" name="recommend" class="inline" />
+            Maybe</label
+          >
+          <label for="Not-sure"
+            ><input type="radio" id="Not-sure" name="recommend" class="inline" />
+            Not sure</label
+          >
+          <label class="features" for="fav-feature"
+            >What is your favorite feature of freeCodeCamp?
+            <select name="fav-feature" id="fav-feature">
+              <option value="">Select an option</option>
+              <option value="1">Challenges</option>
+              <option value="2">Projects</option>
+              <option value="3">Community</option>
+              <option value="4">Open source</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>
+            What would you like to see improved? (Check all that apply)
+          </legend>
+          <label for="improve">
+            <input
+              class="inline"
+              type="checkbox"
+              name="improve"
+              id="improve"
+            />Front-end-Projects</label
+          >
+          <label for="improve">
+            <input
+              class="inline"
+              type="checkbox"
+              name="improve"
+              id="improve"
+            />Back-end-Projects</label
+          >
+          <label for="improve">
+            <input
+              class="inline"
+              type="checkbox"
+              name="improve"
+              id="improve"
+            />Data Visualization</label
+          >
+          <label for="improve">
+            <input
+              class="inline"
+              type="checkbox"
+              name="improve"
+              id="improve"
+            />Challenges</label
+          >
+          <label for="improve">
+            <input
+              class="inline"
+              type="checkbox"
+              name="improve"
+              id="improve"
+            />Open Source Community</label
+          >
+          <label for="improve">
+            <input
+              class="inline"
+              type="checkbox"
+              name="improve"
+              id="improve"
+            />Gitter help rooms</label
+          >
+          <label for="improve">
+            <input
+              class="inline"
+              type="checkbox"
+              name="improve"
+              id="improve"
+            />Videos</label
+          >
+          <label for="improve">
+            <input
+              class="inline"
+              type="checkbox"
+              name="improve"
+              id="improve"
+            />City Meetups</label
+          >
+          <label for="improve">
+            <input
+              class="inline"
+              type="checkbox"
+              name="improve"
+              id="improve"
+            />Wiki</label
+          >
+          <label for="improve">
+            <input
+              class="inline"
+              type="checkbox"
+              name="improve"
+              id="improve"
+            />Forum</label
+          >
+          <label for="improve">
+            <input
+              class="inline"
+              type="checkbox"
+              name="improve"
+              id="improve"
+            />Additional Courses</label
+          >
+        </fieldset>
+        <fieldset>
+          <label for="comments">
+            Any comments or suggestions?
+            <textarea
+              name="comments"
+              id="comments"
+              cols="30"
+              rows="3"
+              placeholder="Enter your comments here..."
+            ></textarea>
+          </label>
+        </fieldset>
+        <input type="submit" value="submit" name="submit" id="submit" />
+      </form>
+      </div>
+      
+    </div>
+   
+  </body>
+</html>
